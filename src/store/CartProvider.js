@@ -1,6 +1,6 @@
 import CartContext from "./cart-context";
 
-const CartProcider = (props) => {
+const CartProvider = (props) => {
   const addItemtoCartHandler = (item) => {};
   const removeItemFromCartHandler = (id) => {};
 
@@ -18,4 +18,4 @@ const CartProcider = (props) => {
   );
 };
 
-export default CartProcider;
+export default CartProvider;
